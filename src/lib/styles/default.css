@@ -1,0 +1,117 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+/* Headings 100 - 9000 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @apply font-body not-italic m-0;
+}
+
+h1,
+.title1 {
+    @apply text-6xl text-neutral-900 font-bold;
+    line-height: 72px !important;
+}
+
+h2,
+.title2 {
+    @apply text-5xl text-neutral-900 font-bold;
+    line-height: 56px !important;
+}
+
+h3,
+.title3 {
+    @apply text-4xl text-neutral-900 font-extrabold;
+    line-height: 40px !important;
+}
+
+h4,
+.headline {
+    @apply text-2xl text-neutral-900 font-extrabold;
+    line-height: 32px !important;
+}
+
+h5,
+.subheadline {
+    @apply text-lg text-neutral-900 font-bold;
+    line-height: 32px !important;
+}
+
+.body {
+    @apply text-base text-neutral-900 font-normal;
+    line-height: 24px !important;
+}
+
+.bodybold {
+    @apply text-base text-neutral-900 font-bold;
+    line-height: 24px !important;
+}
+
+.bodysmall {
+    @apply text-sm text-neutral-900 font-normal;
+    line-height: 24px !important;
+}
+
+.bodysmallbold {
+    @apply text-sm text-neutral-900 font-bold;
+    line-height: 24px !important;
+}
+
+.caption {
+    @apply text-xs text-neutral-900 font-semibold;
+    line-height: 16px !important;
+}
+
+* {
+    scrollbar-color: rgba(9, 30, 66, 0.36) #f1f1f1;
+    scrollbar-width: thin;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(9, 30, 66, 0.2);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(9, 30, 66, 0.3);
+}
+
+::placeholder {
+    font-weight: 400 !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+textarea {
+    resize: none;
+}

@@ -1,0 +1,11 @@
+@import url("@fontsource/nunito-sans/200.css");
+@import url("@fontsource/nunito-sans/300.css");
+@import url("@fontsource/nunito-sans/400.css");
+@import url("@fontsource/nunito-sans/600.css");
+@import url("@fontsource/nunito-sans/700.css");
+@import url("@fontsource/nunito-sans/800.css");
+@import url("@fontsource/nunito-sans/900.css");
+
+html {
+	font-family: "Nunito Sans";
+}

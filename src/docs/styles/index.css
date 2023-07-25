@@ -1,0 +1,13 @@
+@import './font.css';
+@import '../../lib/styles/icons/icons.css';
+@import './prism-theme-nightowl.css';
+
+html, body {
+	margin: 0;
+	height: 100%
+}
+
+html {
+	scroll-behavior: smooth;	
+	scroll-padding-top: 75px;
+}
